@@ -1,0 +1,12 @@
+.test-link{
+    color: green;
+}
+.test-link:hover{
+    color: tomato;
+}
+.test-link:focus{
+    color:tomato;
+}
+.test-link:active{
+    color: teal;
+}
