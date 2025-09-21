@@ -1,12 +1,25 @@
-.test-link{
-    color: green;
+/*белый цвет #FFFFFF*/
+/*основные заголовки: черный цвет #212121*/
+/*основной серый #757575*/
+/*вторичный цвет фона #F5F4FA*/
+/*синий цвет #2196F3*/
+/*navigation*/
+
+
+:root {
+    --primer-color: #757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
 }
-.test-link:hover{
-    color: tomato;
+
+
+h1 {
+    color:#FFFFFF;
 }
-.test-link:focus{
-    color:tomato;
+.work-title .text{
+    color: var(--primer-color);
 }
-.test-link:active{
-    color: teal;
+
+.work-title .title{
+    color: var(--title-text-color);
 }
