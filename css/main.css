@@ -7,10 +7,38 @@
 
 
 :root {
-    --primer-color: #757575;
+    --primer-color:#757575;
     --title-text-color:#212121;
     --accent-color:#2196F3;
 }
+
+.address .site-nav{
+    color: #212121;}
+    .address .site-nav:hover{
+        color:#2196F3 ;
+    }
+    .address .site-nav:focus{
+        color: #2196F3;
+    }
+    .navigation .nav-tests{
+        color: #757575;
+    }
+    .navigation .nav-tests:hover{
+        color: #2196F3;
+    }
+    .navigation .nav-tests:focus{
+        color: #2196F3;
+    }
+    .button{
+        color: #FFFFFF;
+    }
+    .button{
+        background-color: var(--accent-color);
+    }
+
+
+
+
 
 
 h1 {
@@ -22,4 +50,16 @@ h1 {
 
 .work-title .title{
     color: var(--title-text-color);
+}
+.second-title{
+    color: var(--title-text-color);
+}
+.thirs-title{
+    color: var(--title-text-color)
+}
+.description{
+    color: var(--primer-color);
+}
+.last-nav{
+    color: var(--primer-color);
 }
