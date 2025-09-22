@@ -11,6 +11,9 @@
     --title-text-color:#212121;
     --accent-color:#2196F3;
 }
+.logo{
+    color: var(--accent-color);
+}
 
 .address .site-nav{
     color: #212121;}
