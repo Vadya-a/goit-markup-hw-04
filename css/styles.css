@@ -3,16 +3,24 @@
 /*основной серый #757575*/
 /*вторичный цвет фона #F5F4FA*/
 /*синий цвет #2196F3*/
-/*navigation*/
+/*фон футера #2F303A*/
+
 
 
 :root {
     --primer-color:#757575;
     --title-text-color:#212121;
     --accent-color:#2196F3;
+    --white-color:#FFFFFF;
+
+body{
+    font-family: Roboto, sans-serif;
+
+}
 }
 .logo{
     color: var(--accent-color);
+    font-family: Raleway, sans-serif;
 }
 
 .address .site-nav{
@@ -45,24 +53,59 @@
 
 
 h1 {
-    color:#FFFFFF;
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
+    text-align: center;
+
 }
 .work-title .text{
     color: var(--primer-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+
 }
 
 .work-title .title{
     color: var(--title-text-color);
+        font-weight: 700;
+    font-size: 14px;
+    line-height: 7,14;
 }
 .second-title{
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36;
+    line-height: 2,77;
+    text-align: center;
 }
 .thirs-title{
-    color: var(--title-text-color)
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36;
+    line-height: 2,77;
+    text-align: center;
 }
 .description{
     color: var(--primer-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 6,25;
+    text-align: center;
+
+}
+
+.thirs-logo{
+    color: var(--white-color);
+}
+.home-adress{
+    color: var(--white-color);
 }
 .last-nav{
-    color: var(--primer-color);
+    color: var(--white-color);
+}
+.footer{
+    background-color: #2F303A;
 }
