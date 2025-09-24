@@ -40,10 +40,29 @@ body{
     .navigation .nav-tests:focus{
         color: #2196F3;
     }
-    .button{
+    .priority-button{
         color: #FFFFFF;
+        background-color: var(--accent-color);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        text-align: center;
+        cursor: pointer;
+
+
     }
-    .button{
+    
+    .second-button{
+        color:var(--title-text-color);
+        background-color: var(--white-color);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.63;
+        text-align: center;
+        cursor: pointer;
+    }
+    .second-button:hover{
+        color: var(--white-color);
         background-color: var(--accent-color);
     }
 
@@ -56,15 +75,15 @@ h1 {
     color: var(--white-color);
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;
+    line-height: 1.36;
     text-align: center;
 
 }
 .work-title .text{
     color: var(--primer-color);
-    font-weight: 400;
+
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
 
 }
 
@@ -72,39 +91,64 @@ h1 {
     color: var(--title-text-color);
         font-weight: 700;
     font-size: 14px;
-    line-height: 7,14;
+    line-height: 100%;
 }
 .second-title{
     color: var(--title-text-color);
     font-weight: 700;
-    font-size: 36;
-    line-height: 2,77;
+    font-size: 36px;
+    line-height: 100%;
     text-align: center;
 }
 .thirs-title{
     color: var(--title-text-color);
-    font-weight: 700;
-    font-size: 36;
-    line-height: 2,77;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
     text-align: center;
 }
 .description{
     color: var(--primer-color);
-    font-weight: 400;
+
     font-size: 16px;
-    line-height: 6,25;
+    line-height: 100%;
     text-align: center;
 
 }
 
+.project .categories{
+    color:var(--primer-color);
+
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+.project{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+.project .title
+{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
 .thirs-logo{
     color: var(--white-color);
+    font-family: Raleway, sans-serif;
+
 }
-.home-adress{
+.footer .home-adress{
     color: var(--white-color);
 }
 .last-nav{
     color: var(--white-color);
+    font-size: 14px;
+    line-height:  1.71;
 }
 .footer{
     background-color: #2F303A;
