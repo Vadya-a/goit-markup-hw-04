@@ -23,6 +23,7 @@ body{
     font-family: Raleway, sans-serif;
 }
 
+
 .address .site-nav{
     color: #212121;}
     .address .site-nav:hover{
@@ -73,6 +74,7 @@ body{
 
 h1 {
     color: var(--white-color);
+    background-color: #2F303A;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
