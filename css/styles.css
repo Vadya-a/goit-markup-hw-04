@@ -5,153 +5,161 @@
 /*синий цвет #2196F3*/
 /*фон футера #2F303A*/
 
-
-
 :root {
-    --primer-color:#757575;
-    --title-text-color:#212121;
-    --accent-color:#2196F3;
-    --white-color:#FFFFFF;
+  --primer-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
 
-body{
+  ul {
+    list-style-type: none;
+  }
+
+  body {
     font-family: Roboto, sans-serif;
-
+  }
 }
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 100%;
 }
-.logo{
-    color: var(--accent-color);
-    font-family: Raleway, sans-serif;
-}
-
-
-.address .site-nav{
-    color: #212121;}
-    .address .site-nav:hover{
-        color:#2196F3 ;
-    }
-    .address .site-nav:focus{
-        color: #2196F3;
-    }
-    .navigation .nav-tests{
-        color: #757575;
-    }
-    .navigation .nav-tests:hover{
-        color: #2196F3;
-    }
-    .navigation .nav-tests:focus{
-        color: #2196F3;
-    }
-    .priority-button{
-        color: #FFFFFF;
-        background-color: var(--accent-color);
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.88;
-        text-align: center;
-        cursor: pointer;
-
-
-    }
-    
-    .second-button{
-        color:var(--title-text-color);
-        background-color: var(--white-color);
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.63;
-        text-align: center;
-        cursor: pointer;
-    }
-    .second-button:hover{
-        color: var(--white-color);
-        background-color: var(--accent-color);
-    }
-
-
-
-
-
-
-h1 {
-    color: var(--white-color);
-    background-color: #2F303A;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-
-}
-.work-title .text{
-    color: var(--primer-color);
-
-    font-size: 14px;
-    line-height: 1.71;
-
+.half-logo {
+  color: #000000;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 100%;
 }
 
-.work-title .title{
-    color: var(--title-text-color);
-        font-weight: 700;
-    font-size: 14px;
-    line-height: 100%;
+.address .site-nav {
+  color: #212121;
 }
-.second-title{
-    color: var(--title-text-color);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 100%;
-    text-align: center;
+.address .site-nav:hover {
+  color: #2196f3;
 }
-.thirs-title{
-    color: var(--title-text-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 100%;
-    text-align: center;
+.address .site-nav:focus {
+  color: #2196f3;
 }
-.description{
-    color: var(--primer-color);
-
-    font-size: 16px;
-    line-height: 100%;
-    text-align: center;
-
+.navigation .nav-tests {
+  color: #757575;
 }
-
-.project .categories{
-    color:var(--primer-color);
-
-    font-size: 16px;
-    line-height: 1.88;
+.navigation .nav-tests:hover {
+  color: #2196f3;
+}
+.navigation .nav-tests:focus {
+  color: #2196f3;
+}
+.priority-button {
+  color: #ffffff;
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  cursor: pointer;
 }
 
-.project{
-    color: var(--title-text-color);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
+.second-button {
+  color: var(--title-text-color);
+  background-color: var(--white-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  cursor: pointer;
 }
-.project .title
-{
-    color: var(--title-text-color);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
+.second-button:hover {
+  color: var(--white-color);
+  background-color: var(--accent-color);
 }
 
-.thirs-logo{
-    color: var(--white-color);
-    font-family: Raleway, sans-serif;
+.hero-title {
+  color: var(--white-color);
+  background-color: #2f303a;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+}
 
+.work-title .text {
+  color: var(--primer-color);
+
+  font-size: 14px;
+  line-height: 1.71;
 }
-.footer .home-adress{
-    color: var(--white-color);
+
+.work-title .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
 }
-.last-nav{
-    color: var(--white-color);
-    font-size: 14px;
-    line-height:  1.71;
+.second-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  text-align: center;
 }
-.footer{
-    background-color: #2F303A;
+.thirs-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+}
+.description {
+  color: var(--primer-color);
+
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+}
+
+.project .categories {
+  color: var(--primer-color);
+
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.project {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.project .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.thirs-logo {
+  color: var(--white-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 100%;
+}
+.footer .home-adress {
+  color: var(--white-color);
+}
+.last-nav {
+  color: var(--white-color);
+  font-size: 14px;
+  line-height: 1.71;}
+  .last-nav:focus {
+  color: #2196f3;}
+  .last-nav:hover{
+    color: #2196f3;
+  }
+
+.footer {
+  background-color: #2f303a;
 }
