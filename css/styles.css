@@ -22,6 +22,20 @@ ul {
 a {
   text-decoration: none;
 }
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 100%;
+}
+.half-logo {
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 100%;
+}
 
 .nav-link:hover,
 .nav-link:focus {
@@ -43,18 +57,19 @@ a {
   font-size: 14px;
   line-height: 100%;
 }
-.logo {
-  color: var(--accent-color);
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 100%;
+
+.hero {
+  background-color: #2f303a;
 }
-.half-logo {
-  color: #000000;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 100%;
+
+.hero-title {
+  color: var(--white-color);
+  background-color: #2f303a;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .priority-button {
@@ -65,10 +80,6 @@ a {
   line-height: 1.88;
   text-align: center;
   cursor: pointer;
-}
-
-.hero {
-  background-color: #2f303a;
 }
 
 .second-button {
@@ -85,29 +96,19 @@ a {
   background-color: var(--accent-color);
 }
 
-.hero-title {
-  color: var(--white-color);
-  background-color: #2f303a;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.feature-text {
-  color: var(--primer-color);
-
-  font-size: 14px;
-  line-height: 1.71;
-}
-
 .feature-title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 100%;
 }
+
+.feature-text {
+  color: var(--primer-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
 .section-header {
   color: var(--title-text-color);
   font-weight: 700;
@@ -132,17 +133,10 @@ a {
 
 .project .categories {
   color: var(--primer-color);
-
   font-size: 16px;
   line-height: 1.88;
 }
 
-.project {
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-}
 .project .title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -159,15 +153,15 @@ a {
 }
 .footer .home-adress {
   color: var(--white-color);
+  font-size: 14px;
+  line-height: 1.71;
 }
 .last-nav {
   color: var(--white-color);
   font-size: 14px;
   line-height: 1.71;
 }
-.last-nav:focus {
-  color: #2196f3;
-}
+.last-nav:focus,
 .last-nav:hover {
   color: #2196f3;
 }
