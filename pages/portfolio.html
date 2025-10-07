@@ -13,35 +13,38 @@
      <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
     rel="stylesheet" />
 
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
   
     <body class="page">
       
-    <header class="page-header">      
-      <a href="/" class="logo">Web</span><span class="half-logo">Studio</span></a>
-      <nav class="navigation">
+     <header class="page-header">
+      <div class="container main-nav">
+        <p class="priority-logo">
+        <span class="logo">Web</span><span class="half-logo">Studio</span></a
+      ></p>
+      <nav  class="navigation">
         <ul class="list">
-          <li><a href="/" class="nav-link">Студия</a></li>
-          <li><a href="/pages/portfolio.html" class="nav-link accent">Портфолио</a></li>
-          <li><a href="" class="nav-link">Контакты</a></li>
+          <li class="item"><a href="/index.html" class="nav-link ">Студия</a></li>
+          <li class="item"><a href="/pages/portfolio.html" class="nav-link accent">Портфолио</a></li>
+          <li class="item"><a href="" class="nav-link">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
-        <li>
+      <ul class="contact">
+        <li class="item">
           <a href="mailto:info@devstudio.com" class="link"
             >info@devstudio.com</a
           >
         </li>
-        <li>
+        <li class="item">
           <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
         </li>
       </ul>
       </div>
-      
     </header>
     <main>
-      <ul>
+      <div class="container">
+      <ul class="nav-button">
         <li><button type="button" class="second-button">Все</button></li>
         <li><button type="button" class="second-button">Веб-сайты</button></li>
         <li><button type="button" class="second-button">Приложения</button></li>
@@ -50,14 +53,15 @@
       </ul>
       <ul class="project">
         <li>
-          <img src="images/website.jpg" width="370" alt="website" />
+          <img src="/images/website.jpg" width="370" height="294" alt="website" />
           <h3 class="title">Технокряк</h3>
           <p class="categories">Веб-сайт</p>
         </li>
         <li>
           <img
-            src="images/poster.basketball.jpg"
+            src="/images/poster.basketball.jpg"
             width="370"
+            height="294"
             alt="poster-basketball"
           />
           <h3 class="title">Постер New Orlean vs Golden Star</h3>
@@ -65,45 +69,47 @@
         </li>
         <li>
           <img
-            src="images/restaurant.seafood.jpg"
+            src="/images/restaurant.seafood.jpg"
             width="370"
+            height="294"
             alt="restaurant"
           />
           <h3 class="title">Ресторан Seafood</h3>
           <p class="categories">Приложение</p>
         </li>
-        <li>
-          <img src="images/headphones.jpg" width="370" alt="headphones" />
+        <li> 
+          <img src="/images/headphones.jpg" width="370" height="294" alt="headphones" />
           <h3 class="title">Проект Prime</h3>
           <p class="categories">Маркетинг</p>
         </li>
         <li>
-          <img src="images/project.boxes.jpg" width="370" alt="boxes" />
+          <img src="/images/project.boxes.jpg" width="370" height="294" alt="boxes" />
           <h3 class="title">Проект Boxes</h3>
           <p class="categories">Приложение</p>
         </li>
         <li>
-          <img src="images/screen.jpg" width="370" alt="screen" />
+          <img src="/images/screen.jpg" width="370" height="294" alt="screen" />
           <h3 class="title">Inspiration has no Borders</h3>
           <p class="categories">Веб-сайт</p>
         </li>
         <li>
-          <img src="images/book.limited.edition.jpg" width="370" alt="book" />
+          <img src="/images/book.limited.edition.jpg" width="370" height="294" alt="book" />
           <h3 class="title">Издание Limited Edition</h3>
           <p class="categories">Дизайн</p>
         </li>
         <li>
-          <img src="images/project.LAB.jpg" width="370" alt="project-LAB" />
+          <img src="/images/project.LAB.jpg" width="370" height="294" alt="project-LAB" />
           <h3 class="title">Проект LAB</h3>
           <p class="categories">Маркетинг</p>
         </li>
         <li>
-          <img src="images/Growing.Business.jpg" width="370" alt="notebook" />
+          <img src="/images/Growing.Business.jpg" width="370" height="294" alt="notebook" />
           <h3 class="title">Growing Business</h3>
           <p class="categories">Приложение</p>
         </li>
       </ul>
     </main>
+    <div class="container">
     <footer class="footer">
       <a href="/"><span class="logo">Web</span><span class="thirs-logo">Studio</span></a>
       <address>
@@ -116,6 +122,7 @@
       </p>
       <p><a href="tel:+380961111111" class="last-nav">+38 096 111 11 11</a></p>
     </footer>
+    </div>
    
   </body>
   
