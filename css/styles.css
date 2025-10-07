@@ -122,10 +122,11 @@ a {
 
 .hero {
   background-color: #2f303a;
-  text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
   
+  display: flex;
+  flex-wrap: wrap; 
+  text-align: center;
+ 
 }
 .hero-title {
   color: var(--white-color);
@@ -138,6 +139,9 @@ a {
   text-align: center;
   padding-bottom: 30px;
   margin-bottom: 0;
+  padding-top: 200px;
+  width: 696px;
+ 
 }
 
 .images{
@@ -217,7 +221,8 @@ margin: 0;
   width: 200px;
   height: 50px;
   border: 1px solid transparent;
-}
+  margin-bottom: 200px;
+  
 
 .second-button {
   color: var(--title-text-color);
