@@ -12,9 +12,7 @@
   --accent-color: #2196f3;
   --white-color: #ffffff;
 }
-html{
-  box-sizing: border-box;
-}
+
 
 
 *, *::before, *::after {
@@ -27,6 +25,10 @@ html{
   outline: 2px solid tomato;
   margin-left: auto;
   margin-right: auto;
+  padding: 15px;
+  padding-bottom: 0;
+  padding-top: 0;
+  
 
 
 }
@@ -36,6 +38,7 @@ html{
 .main-nav{
   display: flex;
   align-items: center;
+  padding-bottom: 0;
 }
 
 .list{
@@ -114,28 +117,32 @@ a {
 .hero {
   background-color: #2f303a;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
   
 }
-.images .item{
-  margin-left: 30px;
-}
+
 .images{
- 
-  padding-left: 0;
+  gap: 30px;
+  padding: 0;
 }
-.person .item{
-  /*margin-left: 30px;*/
-}
+
+
 .person{
   display: flex;
   gap: 30px;
   padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 94px;
 }
 .nav-button{
   display: flex;
   margin: 0;
   justify-content: center;
   gap: 8px;
+  padding-top: 94px;
+  padding-bottom: 34px;
 }
 
 .feature-list{
@@ -144,7 +151,10 @@ a {
   padding-left: 0;
   padding-right: 0;
   gap: 30px;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 81px;
+  padding-bottom: 107px;
   
 }
 .images{
@@ -163,6 +173,7 @@ a {
 }
 .images{
   display: flex;
+  padding-bottom: 94px;
 }
   
 .hero{
@@ -236,8 +247,10 @@ a {
   font-size: 36px;
   line-height: 100%;
   text-align: center;
-  margin:0;
-  padding: 0;
+ margin-top: 0;
+ margin-bottom: 0;
+ padding-bottom: 50px;
+ 
 }
 .section-list {
   background-color: #f5f4fa;
@@ -265,6 +278,7 @@ a {
   ;
   margin: 0;
   gap: 30px;
+  padding-bottom: 94px;
 }
 
 .project .categories {
@@ -307,4 +321,6 @@ a {
 
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
