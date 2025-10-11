@@ -14,12 +14,18 @@
 
 img {
   display: block;
+  height: auto;
+  width: 100%;
 }
 ul {
   padding: 0;
   margin: 0;
 }
-h1,h2,h3,p,li {
+h1,
+h2,
+h3,
+p,
+li {
   margin: 0;
   padding: 0;
 }
@@ -31,7 +37,12 @@ h1,h2,h3,p,li {
 }
 /*container*/
 
-
+.employees {
+  padding-top: 30px;
+  padding-right: 59px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+}
 
 .container {
   width: 1200px;
@@ -157,15 +168,12 @@ a {
   font-size: 44px;
   line-height: 1.36;
   text-transform: uppercase;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
   text-align: center;
- 
-  
 }
 
 .images {
   gap: 30px;
- 
 }
 
 .section {
@@ -177,7 +185,7 @@ a {
   display: flex;
   gap: 30px;
   padding-left: 0;
- 
+
   text-align: center;
   margin-top: 50px;
 }
@@ -218,9 +226,7 @@ a {
   font-size: 36px;
   line-height: 100%;
   text-align: center;
-  margin-top: 94px;
   margin-bottom: 50px;
-
 }
 .images {
   display: flex;
@@ -250,6 +256,10 @@ a {
   cursor: pointer;
   border-radius: 4px;
   border: transparent;
+  padding-top: 6px;
+  padding-right: 22px;
+  padding-bottom: 6px;
+  padding-left: 22px;
 }
 .second-button:hover {
   color: var(--white-color);
@@ -261,48 +271,44 @@ a {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.section-title{
-   color: var(--title-text-color);
+.section-title {
+  color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 100%;
   text-align: center;
   margin-bottom: 50px;
-
 }
 .thirs-title {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
-  margin-top: 30px;
-  margin-bottom: 10px;
 }
 
 .description {
   color: var(--primer-color);
   font-size: 16px;
   line-height: 100%;
-  padding-bottom: 30px;
+  margin-top: 10px;
 }
 .project {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  
 }
 
 .project .categories {
   color: var(--primer-color);
   font-size: 16px;
   line-height: 1.88;
+  margin-top: 4px;
 }
 .project .title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
- 
 }
 
 .thirs-logo {
@@ -328,14 +334,12 @@ a {
   color: #2196f3;
 }
 .address {
- margin-top: 20px;
+  margin-top: 20px;
 }
 
 .footer-nav {
-  
 }
 .home-link {
-
 }
 .home-link .item {
   margin-top: 9px;
