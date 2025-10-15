@@ -39,9 +39,7 @@ li {
 
 .employees {
   padding-top: 30px;
-  padding-right: 59px;
   padding-bottom: 30px;
-  padding-left: 60px;
 }
 
 .container {
@@ -203,9 +201,22 @@ a {
   gap: 30px;
 }
 .feature-list .item {
-  width: 270px;
-}
+  width: 270px;}
 
+  .feature-list .item::before{
+    content:"";
+    display: block;
+    height: 120px;
+    background-color: #F5F4FA;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+  }
+  .icon-antenna{
+    background-image:url(../images/antenna\ 1\ \(1\).svg);
+  }
+ 
 .feature-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -218,6 +229,9 @@ a {
   font-size: 14px;
   line-height: 1.71;
   margin-top: 10px;
+}
+.section-work{
+  padding-bottom: 94px;
 }
 
 .section-header {
