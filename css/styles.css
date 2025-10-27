@@ -121,11 +121,8 @@
   fill: #AFB1B8;
   
 }
-.company .company-list{
-  width: 170px;
-  height: 92px;
-/* border: 1px solid #AFB1B8; */
-}
+
+
 .company{
   display: flex;
   gap: 30px;
